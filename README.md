@@ -147,12 +147,12 @@ git clone https://github.com/Utkuaykus/turkish-quotes-app.git
 
 ## 📝 Yapılacaklar | Roadmap
 
-- [ ] Widget desteği
-- [ ] Favori sözler özelliği  
-- [ ] Karanlık/Aydınlık tema seçimi
+- [ ] Widget desteği (Ana ekranda günün sözü)
+- [ ] Favori sözler özelliği
 - [ ] Bildirim ile günlük söz hatırlatma
-- [ ] Offline çalışma modu
 - [ ] Çoklu dil desteği (İngilizce)
+- [ ] Söz arama özelliği
+- [ ] Yazarlara göre filtreleme
 
 ---
 
