@@ -32,6 +32,7 @@
 | 🎉 **Özel Gün Sözleri** - Bayramlar ve önemli günler | 🎉 **Special Day Quotes** - Holidays & special occasions |
 | 📤 **Söz Paylaşımı** - Sosyal medyada paylaş | 📤 **Quote Sharing** - Share on social media |
 | 📱 **Reels Deneyimi** - Kaydırarak keşfet | 📱 **Reels Experience** - Swipe to discover |
+| 🔔 **Günlük Bildirim** - Her sabah 09:00'da | 🔔 **Daily Notification** - Every morning at 09:00 |
 | 🌙 **Modern UI** - Jetpack Compose ile | 🌙 **Modern UI** - Built with Jetpack Compose |
 
 ---
@@ -155,7 +156,7 @@ git clone https://github.com/Utkuaykus/turkish-quotes-app.git
 
 - [ ] Widget desteği (Ana ekranda günün sözü)
 - [ ] Favori sözler özelliği
-- [ ] Bildirim ile günlük söz hatırlatma
+- [x] Bildirim ile günlük söz hatırlatma
 - [ ] Çoklu dil desteği (İngilizce)
 
 ---

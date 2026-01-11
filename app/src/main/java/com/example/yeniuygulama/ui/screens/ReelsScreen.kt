@@ -30,7 +30,10 @@ import com.example.yeniuygulama.ui.theme.*
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun ReelsScreen() {
-    val allQuotes = remember { QuotesData.getAllQuotes().shuffled() }
+    val allQuotes = remember { 
+        // Ard arda aynı kategori gelmesin diye akıllı shuffle
+        shuffleWithoutConsecutiveCategories(QuotesData.getAllQuotes())
+    }
     val pagerState = rememberPagerState(pageCount = { allQuotes.size })
     
     Box(
@@ -156,4 +159,33 @@ fun ReelItem(quote: Quote) {
             )
         }
     }
+}
+
+// Ard arda aynı kategori gelmesin diye akıllı shuffle
+private fun shuffleWithoutConsecutiveCategories(quotes: List<Quote>): List<Quote> {
+    if (quotes.size <= 1) return quotes
+    
+    val shuffled = quotes.shuffled().toMutableList()
+    val result = mutableListOf<Quote>()
+    
+    // İlk sözü ekle
+    result.add(shuffled.removeAt(0))
+    
+    // Geri kalan sözleri akıllıca ekle
+    while (shuffled.isNotEmpty()) {
+        val lastCategory = result.last().category
+        
+        // Farklı kategoriden bir söz bul
+        val differentCategoryIndex = shuffled.indexOfFirst { it.category != lastCategory }
+        
+        if (differentCategoryIndex != -1) {
+            // Farklı kategori bulundu, onu ekle
+            result.add(shuffled.removeAt(differentCategoryIndex))
+        } else {
+            // Tüm kalan sözler aynı kategoride, mecburen ekle
+            result.add(shuffled.removeAt(0))
+        }
+    }
+    
+    return result
 }

@@ -98,6 +98,13 @@ fun MainNavigation() {
                             },
                             label = { Text(item.title) },
                             selected = selected,
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = MaterialTheme.colorScheme.primary,
+                                selectedTextColor = androidx.compose.ui.graphics.Color.White,
+                                unselectedIconColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                                unselectedTextColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                                indicatorColor = androidx.compose.ui.graphics.Color.Transparent
+                            ),
                             onClick = {
                                 navController.navigate(item.route) {
                                     popUpTo(navController.graph.findStartDestination().id) {
