@@ -120,7 +120,7 @@ Uygulama, özel günlerde otomatik olarak temalı sözler gösterir:
 
 <div align="center">
 
-[![APK İndir](https://img.shields.io/badge/📱%20APK%20İndir-v1.0-success?style=for-the-badge)](https://github.com/Utkuaykus/turkish-quotes-app/releases)
+[![APK İndir](https://img.shields.io/badge/📱%20APK%20İndir-Latest-success?style=for-the-badge)](https://github.com/Utkuaykus/turkish-quotes-app/releases/latest)
 
 **Android 11 (API 30) ve üzeri gerektirir**
 
@@ -156,7 +156,6 @@ git clone https://github.com/Utkuaykus/turkish-quotes-app.git
 
 - [ ] Widget desteği (Ana ekranda günün sözü)
 - [ ] Favori sözler özelliği
-- [x] Bildirim ile günlük söz hatırlatma
 - [ ] Çoklu dil desteği (İngilizce)
 
 ---
