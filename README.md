@@ -149,9 +149,9 @@ Uygulama, özel günlerde otomatik olarak temalı sözler gösterir:
 
 ## 📄 Lisans | License
 
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+Bu projenin tüm hakları saklıdır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
-> This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+> All rights reserved - see the [LICENSE](LICENSE) file for details.
 
 ---
 
