@@ -151,8 +151,6 @@ git clone https://github.com/Utkuaykus/turkish-quotes-app.git
 - [ ] Favori sözler özelliği
 - [ ] Bildirim ile günlük söz hatırlatma
 - [ ] Çoklu dil desteği (İngilizce)
-- [ ] Söz arama özelliği
-- [ ] Yazarlara göre filtreleme
 
 ---
 
