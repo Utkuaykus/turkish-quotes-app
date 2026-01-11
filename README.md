@@ -159,7 +159,7 @@ git clone https://github.com/Utkuaykus/turkish-quotes-app.git
 **Utku** - *Mobil Uygulama Geliştirici*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/Utkuaykus)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/utkuaykus)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/b-utku-ayku%C5%9F-98050929a/)
 
 ---
 
