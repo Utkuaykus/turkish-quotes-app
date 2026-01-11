@@ -128,28 +128,6 @@ Uygulama, özel günlerde otomatik olarak temalı sözler gösterir:
 
 ---
 
-## 🛠️ Geliştiriciler İçin | For Developers
-
-<details>
-<summary>Projeyi klonlayıp çalıştırmak için tıklayın</summary>
-
-### Gereksinimler
-- Android Studio Hedgehog (2023.1.1) veya üzeri
-- JDK 17
-- Android SDK 34
-
-### Kurulum
-
-```bash
-# Repository'yi klonlayın
-git clone https://github.com/Utkuaykus/turkish-quotes-app.git
-
-# Android Studio ile açın
-# Sync Gradle ve Run
-```
-
-</details>
-
 ---
 
 ## 📝 Yapılacaklar | Roadmap
