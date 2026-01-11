@@ -38,7 +38,13 @@
 
 ## 📸 Ekran Görüntüleri | Screenshots
 
-> *Ekran görüntüleri yakında eklenecek | Screenshots coming soon*
+<div align="center">
+
+| Ana Sayfa | Reels | Keşfet |
+|:---------:|:-----:|:------:|
+| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/reels.png" width="200"/> | <img src="screenshots/explore.png" width="200"/> |
+
+</div>
 
 ---
 
