@@ -162,7 +162,7 @@ git clone https://github.com/Utkuaykus/turkish-quotes-app.git
 
 ## 👨‍💻 Geliştirici | Developer
 
-**Utku** - *Mobil Uygulama Geliştirici*
+**Utku** - *Mobil Uygulama Geliştiricisi*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/Utkuaykus)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/b-utku-ayku%C5%9F-98050929a/)
